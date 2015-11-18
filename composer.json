@@ -1,0 +1,26 @@
+{
+    "name": "monscierge/php-sdk",
+    "description": "Monscierge API bindings for PHP.",
+    "keywords": ["monscierge", "monscierge api", "hospitality", "hotels"],
+    "license": "MIT",
+    "homepage": "http://github.com/monscierge/php-sdk",
+    "authors": [
+      {
+          "name": "Derek Myers",
+          "email": "derek.myers@monscierge.com"
+      }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "~5.3|~6.0"
+    },
+    "suggest": {
+      "jstewmc/stream": "Required to parse RTF text.",
+      "jstewmc/rtf": "Required to parse RTF text."
+    },
+    "autoload": {
+      "psr-0": {
+        "Monscierge": "lib/"
+      }
+    }
+}
