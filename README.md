@@ -66,4 +66,4 @@ $client->places('San Francisco');
 $client->userRequests();
 ```
 
-For more examples, dive into the SDK clients and look at the signatures. If you have any questions or feedback [create an issue](https://github.com/monscierge/php-sdk/issues) or send us an [email](mailto:developers@monscierge.com).
+For more examples, dive into the SDK clients and look at the methods signatures. If you have any questions or feedback [create an issue](https://github.com/monscierge/php-sdk/issues) or send us an [email](mailto:developers@monscierge.com).
